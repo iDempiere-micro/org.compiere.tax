@@ -42,6 +42,6 @@ public interface ITaxProvider {
 
 	public boolean updateHeaderTax(I_C_TaxProvider provider, I_M_RMALine line);
 
-	public String validateConnection(I_C_TaxProvider provider, ProcessInfo pi) throws Exception;
+	public String validateConnection(I_C_TaxProvider provider, IProcessInfo pi) throws Exception;
 	
 }
